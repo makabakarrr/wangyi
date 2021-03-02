@@ -1,0 +1,69 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: #333;
+    font-family: PingFangSC-Light,helvetica,'Heiti SC';
+}
+#app{
+    width: 100%;
+    height: 100%;
+}
+#app .page{
+    width: 100%;
+    background: #fefefe;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#app .page.subpage{
+    bottom: 0;
+    z-index: 300;
+}
+.header{
+    height: 44px;
+    width: 100%;
+    background: #fff;
+}
+.wrap{
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    bottom: 50px;
+    left: 0;
+    overflow: hidden;
+}
+.slideInRight,.slideOutLeft{
+    animation-duration: 200ms;
+}
+.slideInDown,.slideOutDown,.slideOutUp{
+    animation-duration: 200ms;
+}
+
+/* 公共样式 */
+.home .home-mod{
+    background: #fff;
+    width: 100%;
+    padding: 0 13px 13px;
+    box-sizing: border-box;
+}
+
+.home-mod .mod-top{
+    display: flex;
+    justify-content: space-between;
+    line-height: 43px;
+}
+.home-mod .mod-top h3{
+    font-weight: normal;
+    flex: 1
+}
+.home-mod .mod-top a{
+    display: block;
+    width: 33px;
+    font-size: 12px;
+    background: url(/img/more.png) right center no-repeat;
+    background-size: 15% 20%;
+}
+
+/* 分类内部详情页 */
